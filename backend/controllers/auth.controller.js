@@ -1,4 +1,4 @@
-const User = require("../models/user");
+const User = require("../models/User");
 const jwt = require("jsonwebtoken");
 const BlacklistedToken = require("../models/blacklist");
 const { OAuth2Client } = require("google-auth-library");
