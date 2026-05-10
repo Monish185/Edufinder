@@ -1,6 +1,6 @@
 const Stripe = require("stripe");
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-const User = require("../models/User");
+const User = require("../models/user");
 
 const activatePlan = async (req, res) => {
   try {
